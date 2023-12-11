@@ -111,7 +111,7 @@ button {
 
 }
 
-@media (max-width: 680px) or (max-height: 530px) {
+@media (max-width: 680px) {
     .counter {
         width: 100%;
         height: 100%;
