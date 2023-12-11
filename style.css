@@ -19,8 +19,8 @@ button {
 
 .counter {
     background-color: #bef227;
-    width: 476px;
-    height: 615px;
+    width: 450px;
+    height: 570px;
     border-radius: 12px;
     box-shadow: 0 25px 121px rgba(0,0,0,0.5);
     display: flex;
@@ -111,7 +111,7 @@ button {
 
 }
 
-@media (max-width: 680px) {
+@media (max-width: 680px) or (max-height: 600px) {
     .counter {
         width: 100%;
         height: 100%;
