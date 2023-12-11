@@ -26,6 +26,11 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 0.4s;
+}
+
+.counter--limit {
+    background-color: #a3d11b;
 }
 
 .counter__title {
@@ -106,7 +111,7 @@ button {
 
 }
 
-@media (max-width: 680px) or (max-height: 730px) {
+@media (max-width: 680px) or (max-height: 530px) {
     .counter {
         width: 100%;
         height: 100%;
